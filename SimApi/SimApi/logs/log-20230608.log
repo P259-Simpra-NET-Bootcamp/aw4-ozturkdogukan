@@ -1,0 +1,140 @@
+2023-06-08 00:33:28.137 [INF] Application is starting...
+2023-06-08 00:33:51.454 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-08 00:33:51.457 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-08 00:33:51.458 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-08 00:40:39.084 [INF] Application is starting...
+2023-06-08 00:40:55.608 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-08 00:40:55.610 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-08 00:40:55.611 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-08 00:41:08.853 [INF] Application is starting...
+2023-06-08 00:41:54.796 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-08 00:41:54.800 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-08 00:41:54.801 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-08 00:45:56.622 [INF] Application is starting...
+2023-06-08 00:46:20.049 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-08 00:46:20.051 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-08 00:46:20.053 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-08 00:47:47.566 [INF] Application is starting...
+2023-06-08 00:48:02.337 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-08 00:48:02.340 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-08 00:48:02.341 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-08 00:48:20.147 [INF] -------------Request-Begin------------
+2023-06-08 00:48:20.148 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/CategoryDapper/Update 
+QueryString:  
+Request Body: {"id":5,"name":"ssdsafafsdatring","order":0}
+2023-06-08 00:48:20.148 [INF] 
+
+2023-06-08 00:48:20.149 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/CategoryDapper/Update 
+QueryString:  
+StatusCode: 200 
+Response Body: 
+2023-06-08 00:48:20.150 [INF] -------------Request-End------------
+2023-06-08 00:48:33.444 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-08 00:48:33.445 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-08 00:48:33.446 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-08 00:48:37.108 [INF] -------------Request-Begin------------
+2023-06-08 00:48:37.109 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/CategoryDapper 
+QueryString:  
+Request Body: 
+2023-06-08 00:48:37.110 [INF] 
+
+2023-06-08 00:48:37.111 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/CategoryDapper 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"name":"string","order":0,"id":2},{"name":"araba","order":0,"id":4},{"name":"ssdsafafsdatring","order":0,"id":5},{"name":"string58","order":0,"id":6},{"name":"kskadsdasjd","order":0,"id":7},{"name":"string342458","order":0,"id":8},{"name":"strsjdjsdsjing","order":0,"id":9}]}
+2023-06-08 00:48:37.112 [INF] -------------Request-End------------
+2023-06-08 00:49:22.897 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-08 00:49:22.901 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-08 00:49:22.925 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-08 00:49:24.658 [INF] -------------Request-Begin------------
+2023-06-08 00:49:24.659 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/CategoryDapper/Update 
+QueryString:  
+Request Body: {"id":5,"name":"ssdsafafsdatringsivas","order":0,"createdat":232314213123132}
+2023-06-08 00:49:24.659 [INF] 
+
+2023-06-08 00:49:24.660 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/CategoryDapper/Update 
+QueryString:  
+StatusCode: 200 
+Response Body: 
+2023-06-08 00:49:24.660 [INF] -------------Request-End------------
+2023-06-08 00:49:42.516 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-08 00:49:42.517 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-08 00:49:42.518 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-08 00:49:43.695 [INF] -------------Request-Begin------------
+2023-06-08 00:49:43.696 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/CategoryDapper/5 
+QueryString:  
+Request Body: 
+2023-06-08 00:49:43.697 [INF] 
+
+2023-06-08 00:49:43.699 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/CategoryDapper/5 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"name":"ssdsafafsdatringsivas","order":0,"id":5}}
+2023-06-08 00:49:43.700 [INF] -------------Request-End------------
+2023-06-08 00:50:02.123 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-08 00:50:02.124 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-08 00:50:02.124 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-08 00:50:04.973 [INF] -------------Request-Begin------------
+2023-06-08 00:50:04.973 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/CategoryDapper 
+QueryString:  
+Request Body: 
+2023-06-08 00:50:04.974 [INF] 
+
+2023-06-08 00:50:04.976 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/CategoryDapper 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"name":"string","order":0,"id":2},{"name":"araba","order":0,"id":4},{"name":"ssdsafafsdatringsivas","order":0,"id":5},{"name":"string58","order":0,"id":6},{"name":"kskadsdasjd","order":0,"id":7},{"name":"string342458","order":0,"id":8},{"name":"strsjdjsdsjing","order":0,"id":9}]}
+2023-06-08 00:50:04.977 [INF] -------------Request-End------------
+2023-06-08 00:51:28.412 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-08 00:51:28.417 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-08 00:51:28.418 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-08 00:51:49.484 [INF] -------------Request-Begin------------
+2023-06-08 00:51:49.486 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/CategoryDapper/Update 
+QueryString:  
+Request Body: {"id":5,"name":"ssdsafafsdatringsivas","order":0,"createdat":"1000-01-01 00:00:00.0000000"}
+2023-06-08 00:51:49.487 [INF] 
+
+2023-06-08 00:51:49.488 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/CategoryDapper/Update 
+QueryString:  
+StatusCode: 200 
+Response Body: 
+2023-06-08 00:51:49.488 [INF] -------------Request-End------------
+2023-06-08 00:51:53.372 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-08 00:51:53.373 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-08 00:51:53.373 [INF] LogRequestLoggingMiddleware.Invoke

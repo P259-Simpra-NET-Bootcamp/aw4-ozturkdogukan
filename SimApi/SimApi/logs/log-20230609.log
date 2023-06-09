@@ -1,0 +1,291 @@
+2023-06-09 00:31:56.099 [INF] Application is starting...
+2023-06-09 00:32:34.841 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-09 00:32:34.844 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-09 00:32:34.845 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-09 00:32:46.549 [INF] -------------Request-Begin------------
+2023-06-09 00:32:46.550 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/CategoryDapper 
+QueryString:  
+Request Body: 
+2023-06-09 00:32:46.553 [INF] 
+
+2023-06-09 00:32:46.554 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/CategoryDapper 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"name":"string","order":0,"id":2},{"name":"araba","order":0,"id":4},{"name":"ssdsafafsdatringsivas","order":0,"id":5},{"name":"string58","order":0,"id":6},{"name":"kskadsdasjd","order":0,"id":7},{"name":"string342458","order":0,"id":8},{"name":"strsjdjsdsjing","order":0,"id":9}]}
+2023-06-09 00:32:46.555 [INF] -------------Request-End------------
+2023-06-09 00:33:23.661 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-09 00:33:23.665 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-09 00:33:23.665 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-09 00:33:42.704 [INF] Application is starting...
+2023-06-09 00:34:08.577 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-09 00:34:08.580 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-09 00:34:08.582 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-09 00:34:10.252 [INF] -------------Request-Begin------------
+2023-06-09 00:34:10.253 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/CategoryDapper/Update 
+QueryString:  
+Request Body: {"id":6,"name":"kralbenim48","order":5}
+2023-06-09 00:34:10.254 [INF] 
+
+2023-06-09 00:34:10.254 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/CategoryDapper/Update 
+QueryString:  
+StatusCode: 200 
+Response Body: 
+2023-06-09 00:34:10.255 [INF] -------------Request-End------------
+2023-06-09 00:34:17.454 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-09 00:34:17.455 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-09 00:34:17.455 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-09 00:34:19.358 [INF] -------------Request-Begin------------
+2023-06-09 00:34:19.359 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/CategoryDapper 
+QueryString:  
+Request Body: 
+2023-06-09 00:34:19.359 [INF] 
+
+2023-06-09 00:34:19.360 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/CategoryDapper 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"name":"string","order":0,"id":2},{"name":"araba","order":0,"id":4},{"name":"ssdsafafsdatringsivas","order":0,"id":5},{"name":"kralbenim48","order":5,"id":6},{"name":"kskadsdasjd","order":0,"id":7},{"name":"string342458","order":0,"id":8},{"name":"strsjdjsdsjing","order":0,"id":9}]}
+2023-06-09 00:34:19.361 [INF] -------------Request-End------------
+2023-06-09 00:35:56.048 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-09 00:35:56.052 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-09 00:35:56.055 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-09 00:35:57.615 [INF] -------------Request-Begin------------
+2023-06-09 00:35:57.616 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/CategoryDapper/Delete 
+QueryString: ?id=6 
+Request Body: 
+2023-06-09 00:35:57.616 [INF] 
+
+2023-06-09 00:35:57.617 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/CategoryDapper/Delete 
+QueryString: ?id=6 
+StatusCode: 200 
+Response Body: 
+2023-06-09 00:35:57.617 [INF] -------------Request-End------------
+2023-06-09 00:36:03.526 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-09 00:36:03.527 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-09 00:36:03.527 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-09 00:36:05.495 [INF] -------------Request-Begin------------
+2023-06-09 00:36:05.495 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/CategoryDapper 
+QueryString:  
+Request Body: 
+2023-06-09 00:36:05.496 [INF] 
+
+2023-06-09 00:36:05.497 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/CategoryDapper 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"name":"string","order":0,"id":2},{"name":"araba","order":0,"id":4},{"name":"ssdsafafsdatringsivas","order":0,"id":5},{"name":"kskadsdasjd","order":0,"id":7},{"name":"string342458","order":0,"id":8},{"name":"strsjdjsdsjing","order":0,"id":9}]}
+2023-06-09 00:36:05.498 [INF] -------------Request-End------------
+2023-06-09 00:36:38.067 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-09 00:36:38.071 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-09 00:36:38.071 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-09 00:36:39.331 [INF] -------------Request-Begin------------
+2023-06-09 00:36:39.331 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/CategoryDapper/Delete 
+QueryString: ?id=5 
+Request Body: 
+2023-06-09 00:36:39.332 [INF] 
+
+2023-06-09 00:36:39.333 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/CategoryDapper/Delete 
+QueryString: ?id=5 
+StatusCode: 200 
+Response Body: 
+2023-06-09 00:36:39.333 [INF] -------------Request-End------------
+2023-06-09 00:36:50.506 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-09 00:36:50.507 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-09 00:36:50.507 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-09 00:36:52.911 [INF] -------------Request-Begin------------
+2023-06-09 00:36:52.912 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/CategoryDapper 
+QueryString:  
+Request Body: 
+2023-06-09 00:36:52.912 [INF] 
+
+2023-06-09 00:36:52.913 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/CategoryDapper 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"name":"string","order":0,"id":2},{"name":"araba","order":0,"id":4},{"name":"kskadsdasjd","order":0,"id":7},{"name":"string342458","order":0,"id":8},{"name":"strsjdjsdsjing","order":0,"id":9}]}
+2023-06-09 00:36:52.914 [INF] -------------Request-End------------
+2023-06-09 00:37:07.791 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-09 00:37:07.791 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-09 00:37:07.792 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-09 00:37:09.008 [INF] -------------Request-Begin------------
+2023-06-09 00:37:09.008 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/CategoryDapper/7 
+QueryString:  
+Request Body: 
+2023-06-09 00:37:09.009 [INF] 
+
+2023-06-09 00:37:09.011 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/CategoryDapper/7 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"name":"kskadsdasjd","order":0,"id":7}}
+2023-06-09 00:37:09.012 [INF] -------------Request-End------------
+2023-06-09 00:37:26.010 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-09 00:37:26.011 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-09 00:37:26.012 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-09 00:37:29.175 [INF] -------------Request-Begin------------
+2023-06-09 00:37:29.176 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/CategoryDapper/98 
+QueryString:  
+Request Body: 
+2023-06-09 00:37:29.177 [INF] 
+
+2023-06-09 00:37:29.179 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/CategoryDapper/98 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":null}
+2023-06-09 00:37:29.180 [INF] -------------Request-End------------
+2023-06-09 00:37:42.649 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-09 00:37:42.650 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-09 00:37:42.651 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-09 00:37:47.565 [INF] -------------Request-Begin------------
+2023-06-09 00:37:47.566 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/CategoryDapper/Delete 
+QueryString: ?id=50 
+Request Body: 
+2023-06-09 00:37:47.566 [INF] 
+
+2023-06-09 00:37:47.567 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/CategoryDapper/Delete 
+QueryString: ?id=50 
+StatusCode: 200 
+Response Body: 
+2023-06-09 00:37:47.568 [INF] -------------Request-End------------
+2023-06-09 14:14:05.011 [INF] Application is starting...
+2023-06-09 14:21:50.594 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-09 14:21:50.597 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-09 14:21:50.598 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-09 14:21:51.095 [ERR] GetAll Exception
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'CreatedAt'.
+Invalid column name 'CreatedBy'.
+Invalid column name 'UpdatedAt'.
+Invalid column name 'UpdatedBy'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at SimApi.Data.Repository.GenericRepository`1.GetAll() in C:\Users\ASUS\Desktop\Simpra Ödevler\aw4\pk-sim\SimApi\SimApi.Data\Repository\Base\GenericRepository.cs:line 30
+   at SimApi.Operation.TransactionReportService.GetAll() in C:\Users\ASUS\Desktop\Simpra Ödevler\aw4\pk-sim\SimApi\SimApi.Operation\Dapper\Transaction\TransactionReportService.cs:line 27
+ClientConnectionId:32141085-c685-42a0-b280-827742e377e4
+Error Number:207,State:1,Class:16
+2023-06-09 14:21:51.153 [INF] -------------Request-Begin------------
+2023-06-09 14:21:51.153 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/TransactionReport 
+QueryString:  
+Request Body: 
+2023-06-09 14:21:51.156 [INF] 
+
+2023-06-09 14:21:51.156 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/TransactionReport 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Invalid column name 'CreatedAt'.\r\nInvalid column name 'CreatedBy'.\r\nInvalid column name 'UpdatedAt'.\r\nInvalid column name 'UpdatedBy'.","response":null}
+2023-06-09 14:21:51.157 [INF] -------------Request-End------------
+2023-06-09 14:33:21.525 [INF] Application is starting...
+2023-06-09 14:33:34.481 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-09 14:33:34.484 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-09 14:33:34.486 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-09 14:33:34.891 [INF] -------------Request-Begin------------
+2023-06-09 14:33:34.891 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/TransactionReport 
+QueryString:  
+Request Body: 
+2023-06-09 14:33:34.892 [INF] 
+
+2023-06-09 14:33:34.893 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/TransactionReport 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[]}
+2023-06-09 14:33:34.893 [INF] -------------Request-End------------
+2023-06-09 14:50:07.140 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-09 14:50:07.141 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-09 14:50:07.142 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-09 14:50:09.833 [INF] -------------Request-Begin------------
+2023-06-09 14:50:09.834 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/CategoryDapper 
+QueryString:  
+Request Body: 
+2023-06-09 14:50:09.835 [INF] 
+
+2023-06-09 14:50:09.835 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/CategoryDapper 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[]}
+2023-06-09 14:50:09.836 [INF] -------------Request-End------------

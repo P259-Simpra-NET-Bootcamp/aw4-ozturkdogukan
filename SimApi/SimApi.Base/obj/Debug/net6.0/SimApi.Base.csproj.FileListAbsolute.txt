@@ -1,0 +1,12 @@
+C:\Users\ASUS\Desktop\Simpra Ödevler\aw4\pk-sim\SimApi\SimApi.Base\bin\Debug\net6.0\SimApi.Base.deps.json
+C:\Users\ASUS\Desktop\Simpra Ödevler\aw4\pk-sim\SimApi\SimApi.Base\bin\Debug\net6.0\SimApi.Base.dll
+C:\Users\ASUS\Desktop\Simpra Ödevler\aw4\pk-sim\SimApi\SimApi.Base\bin\Debug\net6.0\SimApi.Base.pdb
+C:\Users\ASUS\Desktop\Simpra Ödevler\aw4\pk-sim\SimApi\SimApi.Base\obj\Debug\net6.0\SimApi.Base.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\Simpra Ödevler\aw4\pk-sim\SimApi\SimApi.Base\obj\Debug\net6.0\SimApi.Base.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\Simpra Ödevler\aw4\pk-sim\SimApi\SimApi.Base\obj\Debug\net6.0\SimApi.Base.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\Simpra Ödevler\aw4\pk-sim\SimApi\SimApi.Base\obj\Debug\net6.0\SimApi.Base.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\Simpra Ödevler\aw4\pk-sim\SimApi\SimApi.Base\obj\Debug\net6.0\SimApi.Base.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Simpra Ödevler\aw4\pk-sim\SimApi\SimApi.Base\obj\Debug\net6.0\SimApi.Base.dll
+C:\Users\ASUS\Desktop\Simpra Ödevler\aw4\pk-sim\SimApi\SimApi.Base\obj\Debug\net6.0\refint\SimApi.Base.dll
+C:\Users\ASUS\Desktop\Simpra Ödevler\aw4\pk-sim\SimApi\SimApi.Base\obj\Debug\net6.0\SimApi.Base.pdb
+C:\Users\ASUS\Desktop\Simpra Ödevler\aw4\pk-sim\SimApi\SimApi.Base\obj\Debug\net6.0\ref\SimApi.Base.dll

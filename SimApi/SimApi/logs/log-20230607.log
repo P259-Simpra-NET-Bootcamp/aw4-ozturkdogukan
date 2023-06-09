@@ -1,0 +1,271 @@
+2023-06-07 18:45:36.372 [INF] Application is starting...
+2023-06-07 18:45:59.299 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-07 18:45:59.302 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-07 18:45:59.304 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-07 18:46:10.207 [INF] Application is starting...
+2023-06-07 18:46:24.586 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-07 18:46:24.589 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-07 18:46:24.590 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-07 18:46:42.377 [INF] Application is starting...
+2023-06-07 18:48:47.426 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-07 18:48:47.429 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-07 18:48:47.431 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-07 19:25:08.821 [FTL] Path=/simapi/v1/CategoryDapper/Insert || Method=POST || Exception=Cannot insert explicit value for identity column in table 'Category' when IDENTITY_INSERT is set to OFF.
+2023-06-07 19:25:08.849 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id df6c59e8-647a-4838-8e70-016fbc337550 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at SimApi.Service.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\ASUS\Desktop\Simpra Ödevler\aw4\pk-sim\SimApi\SimApi\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at SimApi.Service.Middleware.HeartBeatMiddleware.Invoke(HttpContext context) in C:\Users\ASUS\Desktop\Simpra Ödevler\aw4\pk-sim\SimApi\SimApi\Middleware\HeartBeatMiddleware.cs:line 25
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-07 19:25:08.902 [ERR] An exception was thrown attempting to display the error page.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id df6c59e8-647a-4838-8e70-016fbc337550 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-07 19:25:08.909 [ERR] Connection id "0HMR7DPILSJL5", Request id "0HMR7DPILSJL5:00000009": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id df6c59e8-647a-4838-8e70-016fbc337550 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at SimApi.Service.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\ASUS\Desktop\Simpra Ödevler\aw4\pk-sim\SimApi\SimApi\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at SimApi.Service.Middleware.HeartBeatMiddleware.Invoke(HttpContext context) in C:\Users\ASUS\Desktop\Simpra Ödevler\aw4\pk-sim\SimApi\SimApi\Middleware\HeartBeatMiddleware.cs:line 25
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2023-06-07 19:25:17.075 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-07 19:25:17.076 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-07 19:25:17.076 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-07 19:29:04.222 [INF] Application is starting...
+2023-06-07 19:29:21.016 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-07 19:29:21.020 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-07 19:29:21.021 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-07 19:29:40.447 [INF] Application is starting...
+2023-06-07 19:29:55.316 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-07 19:29:55.319 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-07 19:29:55.320 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-07 19:38:08.303 [INF] Application is starting...
+2023-06-07 19:38:22.542 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-07 19:38:22.545 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-07 19:38:22.546 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-07 19:38:36.595 [INF] Application is starting...
+2023-06-07 19:38:50.966 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-07 19:38:50.969 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-07 19:38:50.970 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-07 19:43:43.132 [INF] Application is starting...
+2023-06-07 19:43:57.556 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-07 19:43:57.559 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-07 19:43:57.560 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-07 19:47:49.936 [INF] Application is starting...
+2023-06-07 19:48:03.066 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-07 19:48:03.069 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-07 19:48:03.070 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-07 19:49:17.202 [INF] Application is starting...
+2023-06-07 19:49:33.116 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-07 19:49:33.119 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-07 19:49:33.120 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-07 19:49:51.781 [INF] Application is starting...
+2023-06-07 19:50:10.442 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-07 19:50:10.445 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-07 19:50:10.446 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-07 19:51:06.030 [INF] Application is starting...
+2023-06-07 19:51:20.783 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-07 19:51:20.786 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-07 19:51:20.787 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-07 19:52:01.868 [INF] Application is starting...
+2023-06-07 19:52:17.067 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-07 19:52:17.070 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-07 19:52:17.071 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-07 19:54:32.515 [INF] Application is starting...
+2023-06-07 19:54:45.380 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-07 19:54:45.383 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-07 19:54:45.384 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-07 19:54:57.931 [INF] Application is starting...
+2023-06-07 19:55:22.820 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-07 19:55:22.823 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-07 19:55:22.824 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-07 19:56:45.570 [INF] Application is starting...
+2023-06-07 19:57:15.684 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-07 19:57:15.687 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-07 19:57:15.688 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-07 20:01:36.802 [INF] Application is starting...
+2023-06-07 20:01:49.731 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-07 20:01:49.734 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-07 20:01:49.735 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-07 20:03:11.613 [INF] Application is starting...
+2023-06-07 20:03:28.278 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-07 20:03:28.281 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-07 20:03:28.282 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-07 20:07:55.320 [INF] Application is starting...
+2023-06-07 20:08:26.864 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-07 20:08:26.867 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-07 20:08:26.869 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-07 20:10:08.851 [INF] Application is starting...
+2023-06-07 20:10:24.426 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-07 20:10:24.428 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-07 20:10:24.429 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-07 20:11:13.681 [INF] Application is starting...
+2023-06-07 20:11:55.917 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-07 20:11:55.920 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-07 20:11:55.921 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-07 20:12:36.942 [INF] Application is starting...
+2023-06-07 20:12:51.340 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-07 20:12:51.343 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-07 20:12:51.344 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-07 20:16:40.106 [INF] Application is starting...
+2023-06-07 20:16:54.499 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-07 20:16:54.502 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-07 20:16:54.503 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-07 20:22:06.192 [INF] Application is starting...
+2023-06-07 20:22:19.668 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-07 20:22:19.671 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-07 20:22:19.672 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-07 20:24:41.690 [INF] Application is starting...
+2023-06-07 20:24:53.018 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-07 20:24:53.021 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-07 20:24:53.022 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-07 20:57:45.437 [INF] Application is starting...
+2023-06-07 20:57:58.634 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-07 20:57:58.637 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-07 20:57:58.638 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-07 20:58:01.623 [INF] -------------Request-Begin------------
+2023-06-07 20:58:01.624 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/CategoryDapper/Insert 
+QueryString:  
+Request Body: {"id":0,"name":"araba","order":0}
+2023-06-07 20:58:01.625 [INF] 
+
+2023-06-07 20:58:01.625 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/CategoryDapper/Insert 
+QueryString:  
+StatusCode: 200 
+Response Body: 
+2023-06-07 20:58:01.626 [INF] -------------Request-End------------
+2023-06-07 20:58:11.422 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-07 20:58:11.423 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-07 20:58:11.423 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-07 20:58:13.100 [INF] -------------Request-Begin------------
+2023-06-07 20:58:13.101 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/CategoryDapper 
+QueryString:  
+Request Body: 
+2023-06-07 20:58:13.101 [INF] 
+
+2023-06-07 20:58:13.102 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/CategoryDapper 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"name":"string","order":0,"id":2},{"name":"araba","order":0,"id":4}]}
+2023-06-07 20:58:13.103 [INF] -------------Request-End------------
+2023-06-07 20:58:30.181 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-07 20:58:30.181 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-07 20:58:30.182 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-07 20:58:32.274 [INF] -------------Request-Begin------------
+2023-06-07 20:58:32.275 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/CategoryDapper/Insert 
+QueryString:  
+Request Body: {"id":0,"name":"araba6","order":0}
+2023-06-07 20:58:32.276 [INF] 
+
+2023-06-07 20:58:32.277 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/CategoryDapper/Insert 
+QueryString:  
+StatusCode: 200 
+Response Body: 
+2023-06-07 20:58:32.277 [INF] -------------Request-End------------
+2023-06-07 20:58:37.380 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-07 20:58:37.381 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-07 20:58:37.381 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-07 20:58:39.082 [INF] -------------Request-Begin------------
+2023-06-07 20:58:39.083 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/CategoryDapper 
+QueryString:  
+Request Body: 
+2023-06-07 20:58:39.084 [INF] 
+
+2023-06-07 20:58:39.084 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/CategoryDapper 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"name":"string","order":0,"id":2},{"name":"araba","order":0,"id":4},{"name":"araba6","order":0,"id":5}]}
+2023-06-07 20:58:39.085 [INF] -------------Request-End------------
+2023-06-07 21:01:57.600 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-07 21:01:57.606 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-07 21:01:57.609 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-07 21:19:39.156 [INF] Application is starting...
+2023-06-07 21:20:21.956 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-07 21:20:21.959 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-07 21:20:21.960 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-07 21:20:44.793 [INF] -------------Request-Begin------------
+2023-06-07 21:20:44.794 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/CategoryDapper/Insert 
+QueryString:  
+Request Body: {"name":"kskadsdasjd","order":0}
+2023-06-07 21:20:44.795 [INF] 
+
+2023-06-07 21:20:44.795 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/CategoryDapper/Insert 
+QueryString:  
+StatusCode: 200 
+Response Body: 
+2023-06-07 21:20:44.796 [INF] -------------Request-End------------
+2023-06-07 22:20:57.864 [INF] Application is starting...
+2023-06-07 22:21:12.656 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-07 22:21:12.659 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-07 22:21:12.660 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-07 22:21:15.282 [INF] -------------Request-Begin------------
+2023-06-07 22:21:15.283 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/CategoryDapper/Insert 
+QueryString:  
+Request Body: {"id":0,"name":"strsjdjsdsjing","order":0}
+2023-06-07 22:21:15.284 [INF] 
+
+2023-06-07 22:21:15.284 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/CategoryDapper/Insert 
+QueryString:  
+StatusCode: 200 
+Response Body: 
+2023-06-07 22:21:15.285 [INF] -------------Request-End------------
+2023-06-07 22:26:05.421 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-07 22:26:05.425 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-07 22:26:05.428 [INF] LogRequestLoggingMiddleware.Invoke
